@@ -96,3 +96,26 @@ body {
     padding: 2em;
 }
 
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivo__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivo__titulo {
+    font-size: 45px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 30px;
+    color: var(--branco-principal);
+}
+
+
+
