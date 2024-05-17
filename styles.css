@@ -23,6 +23,8 @@ body {
     background-image: url(./imagens/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -44,7 +46,7 @@ body {
     color: var(--branco-principal);
     display: block; /* isso faz com que ele ocupe um bloco inteiro, ou seja, uma linha inteira*/
     text-decoration: none; /* Tira as decorações*/
-    margin: 1em;
+    margin-bottom: 1em;
 }
 
 .botao__secundario {
@@ -64,3 +66,33 @@ body {
 .container__caixa {
     margin: 0 6em; /*0 para cima e para baixo, 6em para direita e esquerda */
 }
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 70%;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
